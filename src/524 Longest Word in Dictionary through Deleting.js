@@ -40,7 +40,7 @@ var findLongestWord = function(s, d) {
     // 找出字典书序最前的字符串
     let resultStr = maxArr[0]
     for (let i = 1, len = maxArr.length; i < len; i++) {
-        if (compareStrByOrder(maxArr[i], resultStr) === -1) {
+        if (maxArr[i] < resultStr) {
             resultStr = maxArr[i]
         }
     }
@@ -66,17 +66,4 @@ function compareStr(str1, str2) {
         }
     }
     return true
-}
-
-// 通过字典顺序比较字符串
-function compareStrByOrder (str1, str2) {
-    for (let i = 0, len = str1.length; i < len; i++) {
-        if (str1[i] > str2[i]) {
-            return 1
-        }
-        if (str1[i] < str2[i]) {
-            return -1
-        }
-    }
-    return 0
 }
