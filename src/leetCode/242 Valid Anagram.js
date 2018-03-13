@@ -1,6 +1,6 @@
 /**
  * 判断t是不是s的变位词
- * 将t放入map中，key为字母key为个数
+ * 将t放入map中，key为字母value为个数
  * @param {string} s
  * @param {string} t
  * @return {boolean}
