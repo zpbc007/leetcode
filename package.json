@@ -1,0 +1,26 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "## 75 Sort Colors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --inspect-brk",
+    "start:debug": "node --inspect-brk -r ts-node/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zpbc007/leetcode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zpbc007/leetcode/issues"
+  },
+  "homepage": "https://github.com/zpbc007/leetcode#readme",
+  "dependencies": {
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3"
+  }
+}
