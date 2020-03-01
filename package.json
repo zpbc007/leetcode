@@ -21,6 +21,6 @@
   "homepage": "https://github.com/zpbc007/leetcode#readme",
   "dependencies": {
     "ts-node": "^8.0.2",
-    "typescript": "^3.3.3"
+    "typescript": "^3.8.2"
   }
 }
